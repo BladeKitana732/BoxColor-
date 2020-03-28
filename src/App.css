@@ -5,13 +5,31 @@
     color: white;
     font-size: 35px;
     font-family: fantasy;
+    margin: 40px 260px 40px 260px;
   }
 
   .colorToggle {
     width: 400px;
     height: 400px;
     transition: 0.4s;
-    color: white;
+    color: black;
     font-size: 35px;
-    font-family: monospace;
+    font-family: fantasy;
+    margin: 40px 260px 40px 260px;
+  }
+
+  .App {
+    border: solid 40px black;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: fantasy;
+    border: solid 2px;
+    margin: 30px 150px 10px 150px;
+    background-color: antiquewhite;
+  }
+
+  p {
+    text-align: center;
   }
