@@ -11,8 +11,26 @@ export default class Toggle extends Component {
       }
 
       toggleMe = () => {
-        //needing and if/else or ternary operator to toggle b/w colors 
-      }
+        //needing and if/else or ternary operator to toggle b/w colors
+        if (this.state.clickCounter % 2 === 0) {
+            this.setState({
+                color: 'slateblue',
+                clickCounter: this.state.clickCounter++
+            })
+
+            console.log("click counter ===> ", this.state.clickCounter);
+        
+        } else {
+            this.setState({
+                color: 'cyan',
+                clickCounter: this.state.clickCounter + 1
+            })
+
+            console.log("click counter ===> ", this.state.clickCounter);
+        } 
+
+        }
+    
 
 
     render() {
@@ -31,4 +49,5 @@ export default class Toggle extends Component {
            
         )
     }
+
 }
