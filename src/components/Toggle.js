@@ -5,12 +5,14 @@ export default class Toggle extends Component {
         super(props);
     
         this.state = {
-          color: 'purple',
+          color: 'cyan',
           clickCounter: 0,
         }
       }
 
-
+      toggleMe = () => {
+        //needing and if/else or ternary operator to toggle b/w colors 
+      }
 
 
     render() {
