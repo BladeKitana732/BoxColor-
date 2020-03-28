@@ -12,6 +12,7 @@ export default class Toggle extends Component {
 
       toggleMe = () => {
         //needing and if/else or ternary operator to toggle b/w colors
+        //set condition to display new color when even number
         if (this.state.clickCounter % 2 === 0) {
             this.setState({
                 color: 'slateblue',
@@ -23,7 +24,7 @@ export default class Toggle extends Component {
         } else {
             this.setState({
                 color: 'cyan',
-                clickCounter: this.state.clickCounter + 1
+                clickCounter: this.state.clickCounter++
             })
 
             console.log("click counter ===> ", this.state.clickCounter);
