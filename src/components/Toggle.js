@@ -24,7 +24,7 @@ export default class Toggle extends Component {
         } else {
             this.setState({
                 color: 'cyan',
-                clickCounter: this.state.clickCounter + 1
+                clickCounter: this.state.clickCounter++
             })
 
             console.log("click counter ===> ", this.state.clickCounter);
