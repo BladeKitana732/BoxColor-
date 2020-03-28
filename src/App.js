@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Toggle from './components/Toggle'
+
 
 export default class App extends Component {
 
@@ -29,8 +31,10 @@ export default class App extends Component {
         style={{backgroundColor: this.state.color}}
         onClick={this.onChange}>
 
-        <p>click me. I dare you</p>
+        <p>Click me. I dare you</p>
         </div>
+
+        <Toggle />
       </div>
     )
    }

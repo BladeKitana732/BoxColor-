@@ -6,3 +6,12 @@
     font-size: 35px;
     font-family: fantasy;
   }
+
+  .colorToggle {
+    width: 400px;
+    height: 400px;
+    transition: 0.4s;
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+  }
