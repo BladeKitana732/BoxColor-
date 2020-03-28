@@ -6,7 +6,7 @@ export default class Toggle extends Component {
     
         this.state = {
           color: 'cyan',
-          clickCounter: 0,
+          clickCounter: 8,
         }
       }
 
